@@ -17,13 +17,16 @@
     "lint:js": "eslint .",
     "start": "ember serve",
     "test": "ember test",
-    "test:all": "ember try:each"
+    "test:all": "ember try:each",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "dependencies": {
     "ember-async-button": "^1.0.0",
     "ember-cli-babel": "^6.6.0",
     "ember-cli-htmlbars": "^3.0.0",
-    "ember-data-route": "0.2.0"
+    "ember-data-route": "0.2.0",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "broccoli-asset-rev": "^3.0.0",
@@ -58,5 +61,6 @@
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
-  }
+  },
+  "snyk": true
 }
