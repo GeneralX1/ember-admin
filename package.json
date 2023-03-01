@@ -24,7 +24,7 @@
   "dependencies": {
     "ember-async-button": "^1.0.0",
     "ember-cli-babel": "^6.6.0",
-    "ember-cli-htmlbars": "^3.0.0",
+    "ember-cli-htmlbars": "^3.1.0",
     "ember-data-route": "0.2.0",
     "@snyk/protect": "latest"
   },
